@@ -37,7 +37,8 @@ export default function NestedList(props) {
   return (
     <List
       sx={{ height:'100%' ,width: '100%', maxWidth: 360, bgcolor: 'rgb(137,207,240)' }}
-      component="nav">
+      component="nav"
+      >
           {renderVideoButtons(props.courseContent,props.setDisplayedContent)}
     </List>
   );

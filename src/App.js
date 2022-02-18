@@ -1,5 +1,4 @@
 import './App.css';
-import { useState } from 'react';
 import ResponsiveAppBar from './components/AppBar';
 import { Route, Routes } from 'react-router-dom';
 import AllCourses from './components/AllCourses';

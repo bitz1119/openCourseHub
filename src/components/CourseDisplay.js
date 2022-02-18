@@ -16,9 +16,9 @@ function CourseDisplay() {
     return ( 
         <>
             <Grid container spacing={1} style={{height:"90vh"}}>
-                <Grid item xs="3">
+                <Grid item xs="auto">
                     <NestedList style={{
-                            overflow:"auto", 
+                            overflowY:"auto", 
                         }} 
                         courseContent={course[0].content} setDisplayedContent ={setDisplayedContent} />
                 </Grid>
