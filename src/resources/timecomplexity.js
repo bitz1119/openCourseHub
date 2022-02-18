@@ -1,7 +1,7 @@
 import TYPES from "./types"
 
 export const timeComplexity = {
-    courseId : 1,
+    courseId : "1",
     title : "Time Complexity Analysis",
     img : "https://usercontent.one/wp/compucademy.net/wp-content/uploads/2020/06/python-time-complexity.jpg?media=1636557737",
     description : "Time complexity is a topic which many self-taught programmers who have not studied Computer Science tend to shy away from. However it is well worth the effort to learn at least the basics of this topic as it will empower you to write much more efficient code.",

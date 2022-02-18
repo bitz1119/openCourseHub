@@ -10,8 +10,8 @@ import PDFComponent from './PDFComponent';
 
 function CourseDisplay() {
     let params = useParams();
-    let [courseId,setCourseId] = useState(params.courseId);
-    let course = courses.filter((element)=>element.courseId==courseId)
+    let [courseId] = useState(params.courseId);
+    let course = courses.filter((element)=>element.courseId===courseId)
     let [displayedContent,setDisplayedContent] = useState(0)
     return ( 
         <>

@@ -1,7 +1,7 @@
 import TYPES from "./types"
 
 export const LinkedList = {
-    courseId : 2,
+    courseId : "2",
     title : "LinkedList",
     img : "https://files.realpython.com/media/Python-Linked-Lists-Guide_Watermarked.421631d9a615.jpg",
     description : "A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers",
